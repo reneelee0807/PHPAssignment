@@ -1,0 +1,107 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.inner {
+    width: 60em;
+    margin: 0 auto;
+}
+
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 36em;
+  margin: 5em auto 10em;
+  padding: 3em;
+  
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+.form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #708090;
+  width: 100%;
+  border: 0;
+  padding: 1em;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #B0C4DE;
+}
+.form .message {
+  margin: 1em 0 0;
+  color: #b3b3b3;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.form .message a {
+  color: #4682B4;
+  text-decoration: none;
+}
+#postBox{
+	display:block;
+	width: 100%;
+	height: 8em;
+	font-size:1em;
+	font-family: sans-serif;
+	
+}
+#postBtn
+{
+	font-size: 0.8em;
+	width:5em;
+	height:3em;
+	text-align:center;
+}
+.privateOption select{
+	font-size: 0.8em;
+	width:5.2em;
+	height:3em;
+	text-align:center;
+}
+#function{
+	display:flex;
+	align-item: center;
+	justify-content: space-between;
+}
+
+
+
+body {
+  background: #FFF0F5;
+  background: -webkit-linear-gradient(right, #4682B4, 	#FFF5EE);
+  background: -moz-linear-gradient(right, #4682B4, #FFF5EE);
+  background: -o-linear-gradient(right, #4682B4, #FFF5EE);
+  background: linear-gradient(to left, #4682B4, #FFF5EE);
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
